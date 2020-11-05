@@ -1,0 +1,181 @@
+body {
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    padding: 0;
+    min-width: 570px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+header {
+    background-color: black;
+    height: 2em;
+}
+
+header p {
+    color: white;
+    font-size: 1.5em;
+    padding-top: 0.2em;
+    margin: 1em;
+}
+
+footer{
+    background-color: black;
+    height: 3em;
+}
+footer a {
+    position: relative;
+    bottom: -1em;
+}
+
+#mymenu ul {
+    list-style-type: none;
+    margin: 2em 0;
+}
+
+#mymenu ul li {
+    display: inline-block;
+}
+
+section {
+    margin: 0;
+    padding: 1em 2em;
+    background-color: rgb(220, 220, 220);
+}
+
+article {
+    padding: 1em;
+}
+
+.index-imgs {
+    height: 10em;
+    margin: 1em;
+}
+
+article#three-divs {
+    background-color: rgb(220, 220, 220);
+    margin-bottom: 2em;
+}
+
+article#three-divs > div{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(180, 180, 180);
+    min-width: 200px;
+    max-width: 250px;
+}
+
+/* works page */
+
+#works-main article {
+    border-bottom: solid 2px white;
+    margin-bottom: 2em;
+}
+
+#works-main article img {
+    width: 35%;
+    margin-right: 2%;
+    padding-left: 1em;
+    /* display: inline-block; */
+}
+
+#works-main article .right-content {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 800px) {
+    #works-main article img {
+        width: 100%;
+    }
+}
+
+#me, .gallery-container img{
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+
+@media screen and (max-width: 1000px) {
+    .gallery-container img {
+        width: 45%;
+        height: auto;
+    }
+}   
+    
+@media screen and (max-width: 650px) {
+    .gallery-container img {
+        margin-right: 0;
+        margin-left: 0;
+        width: 60%;
+        height: auto;
+    }
+}   
+
+@media screen and (max-width: 370px) {
+    .gallery-container img {
+        margin-right: 0;
+        margin-left: 0;
+        width: 50%;
+        height: auto;
+    }
+}   
+
+/* about page */
+
+#about-main img {
+    width: 35%;
+    margin-right: 2%;
+    padding-left: 1em;
+}
+
+#about-main aside {
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 800px) {
+    #about-main aside {
+        display: block;
+    }
+}
+
+/* form-div */
+.form-div {
+    text-align: left;
+}
+.form-group {
+    padding: 0.5em 1em;
+}
+
+.form-control {
+    display: block;
+    margin: .5rem 0;
+    border: solid 2px lightblue;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    font-size: 1.2rem;
+    padding: 3px;
+}
+
+button, a {
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: orange;
+    color:black;
+    margin-left: 2em;
+}
+
+button {
+    margin-bottom: 2em;
+}
+
+a:hover, button:hover {
+    background-color: orangered;
+}
